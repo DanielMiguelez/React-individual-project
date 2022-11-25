@@ -11,10 +11,12 @@ const ListNews = () => {
   }, []);
 
 const n = news.map((n)=>{
+  console.log(n.multimedia)
   return(
     <>
     <p>{n.abstract}</p>
-    <img src={n.image} />
+    <img src={n.multimedia[1]}/>
+    <p>{n.source}</p>
     </>
   );
 })

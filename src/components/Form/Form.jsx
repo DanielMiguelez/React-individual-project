@@ -64,8 +64,8 @@ export const Form = () => {
 
   return (
     <>
-      <div>UserForm</div>
-      <form onSubmit={handleSubmit}>
+      <div className="titleform">UserForm</div>
+      <form onSubmit={handleSubmit} className="formstyle">
         <input
           type="text"
           placeholder="Titulo de la noticia"
