@@ -1,35 +1,25 @@
-import React,{useEffect} from 'react'
+import React,{useEffect, useReducer, useContext} from 'react'
 import './ListNews.scss'
 import axios from "axios"
-import { useState } from 'react'
-
+import { GlobalContext } from '../../context/GlobalState'
 
 const ListNews = () => {
-  const[characters, setCharacters]= useState([])
-  const getCharacters = async(character)=>{
-    try {
-      const res = await axios.get("https://rickandmortyapi.com/api/character")
-      setCharacters(res.data.results)
-      console.log("respuesta", characters)
+  const {getNews, news}=useContext(GlobalContext)
 
-    } catch (error) {
-      console.error(error)
-    }
-  }
   useEffect(() => {
-    getCharacters();
+    getNews();
   }, []);
 
-const character = characters.map((character)=>{
+const n = news.map((n)=>{
   return(
     <>
-    <p>{character.name}</p>
-    <img src={character.image} />
+    <p>{n.abstract}</p>
+    <img src={n.image} />
     </>
   );
 })
-  return (
-    <div >ListNews{character}</div>
+  return ( 
+    <div >ListNews{n}</div>
   );
 };
 
