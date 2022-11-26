@@ -34,11 +34,33 @@
     <li>Save form in local storage</li>
     <li>After registering you must redirect to ListNews</li>
 </ul>
-<ol>ListNews
+<ul>ListNews
     <li>paint the news</li>
-</ol>
+</ul>
 <li>Footers</li>
 <p>Use context</p>
 <p>Use SASS</p>
 <p>Excellent Readme!!!</p>
 </p>
+
+
+
+
+
+## License
+This project is under license of Daniel Miguelez
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## Contact 
+  <p align="center">
+<a href = "mailto:danielmiguelez1993@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://github.com/DanielMiguelez/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+</p>
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+---
+
+Developed by [Daniel Miguelez](https://github.com/DanielMiguelez)
