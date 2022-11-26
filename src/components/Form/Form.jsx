@@ -65,7 +65,7 @@ export const Form = () => {
   return (
     <>
     
-      <div className="titleform">UserForm</div>
+      <div className="titleform">Send your new 🧑🏼‍💻</div>
       <form onSubmit={handleSubmit} className="formstyle">
       <fieldset >
         <input

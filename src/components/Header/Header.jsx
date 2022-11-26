@@ -9,11 +9,11 @@ const Header = () => {
         <nav>
          
           <div className="headerdiv">
-              <Link to="/"><span>Home</span></Link>
+              <Link to="/"><span>Home 🏯</span></Link>
             <br />
-              <Link to="/listnews"><span>ListNews</span></Link>
+              <Link to="/listnews"><span>ListNews 📰</span></Link>
             <br />
-              <Link to="/form"><span>Fill the form</span></Link>
+              <Link to="/form"><span>Fill the form 📝</span></Link>
           </div>
         </nav>
       </>

@@ -5,6 +5,21 @@ html{
 div{
     margin: 30px;
 }
+.imagehome{
+    margin-left: 10vh;
+    margin-top: 4vh;
+}
+.imagehome1{
+   height: 150px;
+   width: 300px;
+}
+.pwithimage{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.lastparagraph{
+    width: 60vh;
+}
 
 .homestyles{
     background-color: rgb(255, 136, 0);

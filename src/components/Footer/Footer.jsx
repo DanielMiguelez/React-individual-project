@@ -5,7 +5,7 @@ import './Footer.scss'
 const Footer = () => {
     return(
         <div className="footer">
-           <span>Desarrollado por Daniel Miguelez</span>
+           <span>Desarrollado por Daniel Miguelez 🥰</span>
            
         </div>
 
