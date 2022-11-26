@@ -1,6 +1,14 @@
 a{
     all: unset;
 }
+fieldset{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+   padding: 40px;
+   margin: 30px;
+   border: 5px solid black;
+}
 
 .formstyle{
     display: flex;
@@ -10,14 +18,11 @@ a{
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-span:hover{
-    background-color: aquamarine;
-}
 input{
     padding: 10px;
     margin: 10px;
-    border: 3px solid grey;
-    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,111,255,1) 50%, rgba(0,0,0,1) 100%);
+    border: 3px solid rgb(12, 10, 10);
+    border-radius: 5px;
 }
 input:hover{
     padding: 10px;
@@ -35,12 +40,12 @@ button,
 button::after {
  padding: 16px 20px;
  font-size: 18px;
- background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+ background: linear-gradient(45deg, transparent 5%, #d4bb17 5%);
  border: 0;
  color: #fff;
  letter-spacing: 3px;
  line-height: 1;
- box-shadow: 6px 0px 0px #00e6f6;
+ box-shadow: 6px 0px 0px #4a4739;
  outline: transparent;
  position: relative;
 }
@@ -59,7 +64,7 @@ button::after {
  left: 0;
  right: 0;
  bottom: 0;
- background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+ background: linear-gradient(45deg, transparent 3%, #aa8d19 3%, #696d6d 5%, #5f5520 5%);
  text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
  clip-path: var(--slice-0);
 }

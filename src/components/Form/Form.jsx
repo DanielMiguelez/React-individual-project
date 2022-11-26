@@ -64,8 +64,10 @@ export const Form = () => {
 
   return (
     <>
+    
       <div className="titleform">UserForm</div>
       <form onSubmit={handleSubmit} className="formstyle">
+      <fieldset >
         <input
           type="text"
           placeholder="Titulo de la noticia"
@@ -91,6 +93,8 @@ export const Form = () => {
         <button type="submit" disabled={btnDisabled}>
           Crear la noticia
         </button>
+        </fieldset>
+       
       </form>
       {<p>{visible ? message : "Redirecting to ListNews..."}</p>}
     </>

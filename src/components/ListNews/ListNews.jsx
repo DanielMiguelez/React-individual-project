@@ -11,7 +11,6 @@ const ListNews = () => {
   }, []);
 
 const n = news.map((n)=>{
-  console.log(n.multimedia)
   return(
     <>
     <p>{n.abstract}</p>
