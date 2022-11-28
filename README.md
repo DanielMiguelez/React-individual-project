@@ -50,18 +50,22 @@
 
 In here you can see my project, where posts with the news can be created, apart from the API, which is taking the news from an Online API, the New Your times.
 
-![foto](/assets/gif2.gif)
+![foto](/components/assets/gif1.gif)
 
 ### GIF 2
 
 And in this one you can appreciate the code that i created, with both of my teachers, this couldnt have been possible.
 
-![foto](/assets/gif1.gif)
+![foto](/components/assets/gif2.gif)
 
 
 ## License
 This project is under license of Daniel Miguelez
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### TECHNOLOGIES THAT I HAVE USED
+
+
 
 
 ## Contact 
@@ -76,3 +80,6 @@ This project is under license of Daniel Miguelez
 ---
 
 Developed by [Daniel Miguelez](https://github.com/DanielMiguelez)
+
+[SASS]: https://img.shields.io/badge/SASS-pink?style=for-the-badge&logo=SASS&logoColor=white
+[SASS-url]: https://sass-lang.com/
