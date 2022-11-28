@@ -93,4 +93,4 @@ Developed by [Daniel Miguelez](https://github.com/DanielMiguelez)
 [React]: https://img.shields.io/badge/React-9cf?style=for-the-badge&logo=React&queryColor=fedcba&logoColor=white
 [React-url]: https://es.reactjs.org/
 [Node.JS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
-[Node.JS-url]: https://nextjs.org/
+[Node.JS-url]: https://nodejs.org/en/
