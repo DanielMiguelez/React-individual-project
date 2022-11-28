@@ -1,3 +1,10 @@
 .listnewsstyles{
     background-color: aquamarine;
 }
+img{
+    border-radius: 15px;
+    opacity: .7;
+    &:hover{
+        opacity: 1;
+    }
+}

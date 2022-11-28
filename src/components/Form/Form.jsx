@@ -98,6 +98,7 @@ export const Form = () => {
       {<p>{visible ? message : "Redirecting to ListNews..."}</p>}
     </>
   );
+  
 };
 
 export default Form;
