@@ -15,6 +15,7 @@ const Home = () => {
             <div className="pwithimage">
             <img src={logo} width="200" height="200" className="imagehome" />
             <p className="lastparagraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius explicabo dolor doloremque magni aperiam maxime corporis in tempore sapiente magnam delectus fugiat, blanditiis natus. Aut iure at consequuntur adipisci blanditiis error et ducimus, libero doloribus quibusdam soluta? Porro autem sed officia eum ipsum facilis voluptatum temporibus nesciunt, nisi enim libero placeat facere delectus dolorum itaque omnis, vitae fugit doloremque exercitationem.</p>
+            <img src={logo} width="200" height="200" className="imagehome" />
             </div>
             <hr />
             <span><Link to="/listnews">Weekly top news</Link></span>

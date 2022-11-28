@@ -14,7 +14,7 @@ const n = news.map((n)=>{
   return(
     <>
     <p>{n.abstract}</p>
-    <img src={n.multimedia[1]}/>
+    {n.multimedia[0]? <img src={"https://www.nytimes.com/"+n.multimedia[0]?.url}/>:""}
     <p>{n.source}</p>
     </>
   );
