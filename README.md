@@ -50,13 +50,13 @@
 
 In here you can see my project, where posts with the news can be created, apart from the API, which is taking the news from an Online API, the New Your times.
 
-![foto](/components/assets/gif1.gif)
+![foto](components/assets/gif1.gif)
 
 ### GIF 2
 
 And in this one you can appreciate the code that i created, with both of my teachers, this couldnt have been possible.
 
-![foto](/components/assets/gif2.gif)
+![foto](components/assets/gif2.gif)
 
 
 ## License
