@@ -16,6 +16,15 @@
 
 <hr/>
 
+### BUILT WITH
+
+
+* [![Node][Node.JS]][Node.JS-url]
+* [![React][React]][React-url]
+* [![SASS][SASS]][SASS-url]
+
+
+
 ### Work that has been done in this project, and methodologies that we have used.
 
 <p>
@@ -63,8 +72,6 @@ And in this one you can appreciate the code that i created, with both of my teac
 This project is under license of Daniel Miguelez
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### TECHNOLOGIES THAT I HAVE USED
-
 
 
 
@@ -83,3 +90,7 @@ Developed by [Daniel Miguelez](https://github.com/DanielMiguelez)
 
 [SASS]: https://img.shields.io/badge/SASS-pink?style=for-the-badge&logo=SASS&logoColor=white
 [SASS-url]: https://sass-lang.com/
+[React]: https://img.shields.io/badge/React-9cf?style=for-the-badge&logo=React&queryColor=fedcba&logoColor=white
+[React-url]: https://es.reactjs.org/
+[Node.JS]: https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white
+[Node.JS-url]: https://nextjs.org/
